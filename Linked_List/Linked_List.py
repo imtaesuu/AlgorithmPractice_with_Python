@@ -3,4 +3,4 @@ class ListNode:
         self.val = val
         self.next = next
     def __str__ (self):
-        return '{} -> {}'.format(self.val, self.next) 
+        return '{} -> {}'.format(self.val, self.next)
