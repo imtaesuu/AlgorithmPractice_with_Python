@@ -3,7 +3,7 @@
 
 ## Linked List 
 ### - Leetcode 328. Odd Even Linked List 
-'''python
+```python
 def oddEvenList(self, head: ListNode) -> ListNode:
     if head is None:
         return head
@@ -17,4 +17,4 @@ def oddEvenList(self, head: ListNode) -> ListNode:
             odd_tail = odd_tail.next
         odd_tail.next = even
         return odd
-'''
+```
