@@ -18,4 +18,4 @@ def oddEvenList(self, head: ListNode) -> ListNode:
         odd_tail.next = even
         return odd
 ```
-#### Link: [Google][https://github.com/imtaesuu/AlgorithmPractice_with_Python/commit/bb853c64241844e3c8264586549233cacf12945f]
+Link: [Google][https://github.com/imtaesuu/AlgorithmPractice_with_Python/commit/bb853c64241844e3c8264586549233cacf12945f]
