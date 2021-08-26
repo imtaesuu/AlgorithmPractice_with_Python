@@ -2,19 +2,18 @@ from Linked_List import ListNode
 
 ##### My code #####
 ##### Runtime 36ms, Memory 16.1MB #####
-# class leetcode_328:
-#     def oddEvenList(self, head: ListNode) -> ListNode:
-#         if head is None:
-#             return head
-#         odd, even = head, head.next
+# def oddEvenList(self, head: ListNode) -> ListNode:
+#     if head is None:
+#         return head
+#     odd, even = head, head.next
 
-#         while head and head.next:
-#             head.next, head = head.next.next, head.next
+#     while head and head.next:
+#         head.next, head = head.next.next, head.next
             
-#         start = odd       
-#         while start and start.next:
-#             start = start.next
-#         start.next = even
+#         odd_tail = odd       
+#         while odd_tail and odd_tail.next:
+#             odd_tail = odd_tail.next
+#         odd_tail.next = even
 #         return odd
 
 ##### The answer in the book #####
