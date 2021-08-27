@@ -1,5 +1,4 @@
 from Linked_List import ListNode
-
 ##### My code #####
 ##### Runtime 36ms, Memory 16.1MB #####
 # def oddEvenList(self, head: ListNode) -> ListNode:
