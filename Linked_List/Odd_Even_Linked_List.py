@@ -1,11 +1,12 @@
 from Linked_List import ListNode
+
 ##### My code #####
 ##### Runtime 36ms, Memory 16.1MB #####
 # def oddEvenList(self, head: ListNode) -> ListNode:
 #     if head is None:
 #         return head
-#     odd, even = head, head.next
 
+#     odd, even = head, head.next
 #     while head and head.next:
 #         head.next, head = head.next.next, head.next
             
