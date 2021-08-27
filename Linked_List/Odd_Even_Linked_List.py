@@ -10,11 +10,12 @@ from Linked_List import ListNode
 #     while head and head.next:
 #         head.next, head = head.next.next, head.next
             
-#         odd_tail = odd       
-#         while odd_tail and odd_tail.next:
-#             odd_tail = odd_tail.next
-#         odd_tail.next = even
-#         return odd
+#     odd_tail = odd       
+#     while odd_tail and odd_tail.next:
+#         odd_tail = odd_tail.next
+
+#     odd_tail.next = even
+#     return odd
 
 ##### The answer in the book #####
 ##### Runtime 93ms, Memory 16.4MB #####
