@@ -4,22 +4,25 @@ Github와도 친해지고 자료구조 공부도 할겸 내 풀이와 다른 풀
 또 온라인에 남기면 어떻게든 나에게 도움이 될지도 모르기에... 대부분의 문제는 [파이썬 알고리즘 인터뷰](https://github.com/onlybooks/algorithm-interview)를 참고한 코드가 들어있다.
 
 
-## Linked List 
-### - Leetcode 328. Odd Even Linked List 
+# Linked List 
+## - Leetcode 328. Odd Even Linked List - [Link](https://leetcode.com/problems/odd-even-linked-list/)
 ● 입력  
 > 1 → 2 → 3 → 4 → 5 → NULL  
 
 ● 출력
-> 1 → 3 → 5 → 2 → 4 → NULL     
------
-#### - 내가 접근했던 방식과 풀이
+> 1 → 3 → 5 → 2 → 4 → NULL  
+
+## - 내가 접근했던 방식과 풀이 - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/commit/bb853c64241844e3c8264586549233cacf12945f) 
 연결 리스트를 __홀수번째(index. 1, 3, 5 …)__ 노드 다음에 __짝수번째(index. 2, 4, 6 …)__ 노드가 오도록 재구성하는 문제이다.  
 문제에서는 __공간 복잡도 O(1), 시간 복잡도 O(n)__ 을 요구하고 있다. 최대한 변수를 적게 사용하려는 기준을 세우고 접근했다.
+
 ```python
 if head is None:
     return head
-```
-먼저 입력값이 없을 때, 그대로 값을 리턴했고
+```  
+
+먼저 입력값이 없을 때, 그대로 값을 리턴했고  
+
 ```python
 odd, even = head, head.next
 while head and head.next:
@@ -54,8 +57,7 @@ def oddEvenList(self, head: ListNode) -> ListNode:
     return odd
 ```  
   
------
-#### - 참고한 다른풀이
+## - 참고한 다른풀이
 ```python
 def oddEvenList(self, head: ListNode) -> ListNode:
     if head is None:
@@ -72,10 +74,6 @@ def oddEvenList(self, head: ListNode) -> ListNode:
     return head	
 ```
   
-앞부분은 똑같지만 내 풀이처럼 __while__ 을 여러번 쓰지 않고 한번에 해결하기 위해서 odd와 even을  
-한칸씩 땡기면서 연결시켰다. 나는 __odd의 끝부분__ 을 사용했지만 여기서는 __even의 첫부분__ 을 사용했다.  
-이 방식이 코드는 더 깔끔하고 이해하기 쉬워보인다. 하지만 leetcode에서 테스트한 결과 내 풀이가  
-속도도 빠르고 메모리도 적게 들었다. 아래는 내 코드와 문제 사이트의 링크다.  
-  
-[Odd Even Linked List - My Code](https://github.com/imtaesuu/AlgorithmPractice_with_Python/commit/bb853c64241844e3c8264586549233cacf12945f)  
-[Odd Even Linked List - LeetCode](https://leetcode.com/problems/odd-even-linked-list/)
+앞부분은 똑같지만 내 풀이처럼 __while__ 을 여러번 쓰지 않고 한번에 해결하기 위해서 odd와 even을 한칸씩 땡기면서 연결시켰다.   
+나는 __odd의 끝부분__ 을 사용했지만 여기서는 __even의 첫부분__ 을 사용했다. 이 방식이 코드는 더 깔끔하고 이해하기 쉬워보인다.  
+하지만 leetcode에서 테스트한 결과 내 풀이가 속도도 빠르고 메모리도 적게 들었다.   
