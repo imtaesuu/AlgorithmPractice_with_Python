@@ -8,7 +8,7 @@
 
 ## - 내가 접근했던 방식과 풀이 - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Linked_List/Odd_Even_Linked_List.py) 
 연결 리스트를 __홀수번째(index. 1, 3, 5 …)__ 노드 다음에 __짝수번째(index. 2, 4, 6 …)__ 노드가 오도록 재구성하는 문제이다.  
-문제에서는 __공간 복잡도 O(1), 시간 복잡도 O(n)__ 을 요구하고 있다. 최대한 변수를 적게 사용하려는 기준을 세우고 접근했다.
+문제에서는 __공간 복잡도 O(1), 시간 복잡도 O(n)__ 을 요구하고 있다. 최대한 변수를 적게 사용하려는 기준을 세우고 접근했다. 
 
 ```python
 if head is None:
