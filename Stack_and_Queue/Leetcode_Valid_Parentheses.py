@@ -1,4 +1,4 @@
-##### My code #####
+##### The answer in the book #####
 ##### Runtime 50ms, Memory 14.1MB #####
 
 def isValid(self, s: str) -> bool:
