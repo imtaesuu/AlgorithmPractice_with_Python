@@ -1,3 +1,6 @@
+##### My code #####
+##### Runtime 50ms, Memory 14.1MB #####
+
 def isValid(self, s: str) -> bool:
     stack = []
     table = {
