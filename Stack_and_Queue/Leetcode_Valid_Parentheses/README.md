@@ -1,5 +1,3 @@
-# Stack and Queue
-
 ## - Leetcode 20. Valid Parentheses - [Link](https://leetcode.com/problems/valid-parentheses/)
 ● 입력  
 > ([{}])()[]{} 
