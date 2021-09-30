@@ -5,3 +5,10 @@ __Github__ 와 친해지고 __자료구조__ 공부도 할겸 내 풀이와 다�
 
 - [__Linked List 문제__](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Linked_List)
 - [__Stack, Queue 문제__](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue) 
+
+------
+## 문제 풀이
+**Linked List**
+
+- [**LeetCode 92**](https://leetcode.com/problems/reverse-linked-list-ii/)
+- [**LeetCode 328**](https://leetcode.com/problems/odd-even-linked-list/) 
