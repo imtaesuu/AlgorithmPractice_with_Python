@@ -16,3 +16,4 @@ __Github__ 와 친해지고 __자료구조__ 공부도 할겸 내 풀이와 다�
 **Stack, Queue**
 
 - [**LeetCode 20**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Leetcode_Valid_Parentheses)
+- [**LeetCode 739**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Leetcode_Daily_Temperatures)
