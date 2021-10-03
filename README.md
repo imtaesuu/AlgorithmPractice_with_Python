@@ -19,5 +19,6 @@ __Github__ 와 친해지고 __자료구조__ 공부도 할겸 내 풀이와 다�
 - [**LeetCode 739**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Leetcode_Daily_Temperatures)
 
 
-+ [**Baekjoon 1158 요세푸스 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1158/README.md)
++ [**Baekjoon 1158 요세푸스 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1158)
++ [**Baekjoon 9012 올바른 괄호 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_9012)
 + [**Baekjoon 10828 스택 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_10828)
