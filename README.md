@@ -20,3 +20,4 @@ __Github__ 와 친해지고 __자료구조__ 공부도 할겸 내 풀이와 다�
 
 
 + [**Baekjoon 1158 요세푸스 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1158/README.md)
++ [**Baekjoon 10828 스택 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_10828)

@@ -1,3 +1,6 @@
+##### My code #####
+##### Runtime 92ms, Memory 29200KB #####
+
 import sys
 
 def input():

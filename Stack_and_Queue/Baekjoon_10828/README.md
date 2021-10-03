@@ -1,4 +1,4 @@
-## - Baekjoon 1158 요세푸스 문제 - [Link](https://www.acmicpc.net/problem/1158)
+## - Baekjoon 10828 스택 구현 문제 - [Link](https://www.acmicpc.net/problem/10828)
 ● 입력  
 > 14  
 push 1  
@@ -17,30 +17,57 @@ empty
 top
 
 ● 출력
-> <3, 6, 2, 7, 5, 1, 4>
+> 2  
+2  
+0  
+2  
+1  
+-1  
+0  
+1  
+-1  
+0  
+3
 
-## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Stack_and_Queue/Baekjoon_1158/Baekjoon_1158.py)
+## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Stack_and_Queue/Baekjoon_10828/Baekjoon_10828.py)
 
 ```python
-from collections import deque
+import sys
 
-N, K = map(int, input().split())
+def input():
+  return sys.stdin.readline().rstrip()
 
-people = deque([i+1 for i in range(N)])
-rlt = []
+cnt = int(input())
+stack = []
 
-while people:
-  people.rotate(-(K-1))
-  rlt.append(people.popleft())
+while cnt != 0:
+  cmd = input().split()
+  cnt -= 1
 
-print("<" + ", ".join(map(str, rlt)) + ">")
+  if cmd[0] == 'push':
+    stack.append(int(cmd[1]))
+  elif cmd[0] == 'pop':
+    if stack:
+      print(stack.pop())
+    else:
+      print(-1)
+  elif cmd[0] == 'size':
+    print(len(stack))
+  elif cmd[0] == 'empty':
+    if stack:
+      print(0)
+    else:
+      print(1)
+  elif cmd[0] == 'top':
+    if len(stack) == 0:
+      print(-1)
+    else:
+      print(stack[-1])
 	
 ##### My code #####
-##### Runtime 100ms, Memory 32120KB #####
+##### Runtime 92ms, Memory 29200KB #####
 ```
 
 ## - **How To Solve**
-- 요세푸스 문제 규칙에 따라 **K번째의 값**을 **결과값**에 넣으면된다.
-- 기본적인 **리스트**로 풀려고 하면 구현이 꽤 까다로워 멀리 돌아가는 문제이다.
-- **데크**의 **rotate**를 사용하여 **큐**를 거꾸로 순회시킨후 값을 꺼내어 **결과값**에 넣는다.
-- **데크** 자료형의 특징을 잘 활용하면 그리 어렵지 않은 문제다.
+- 기본적인 구현 문제이며, **스택**의 구조를 이해하고 있으면 구현하기 쉽다.
+- 내 코드에서는 **while**을 썼지만 **for**을 이용해도 된다.
