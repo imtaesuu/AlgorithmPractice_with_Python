@@ -1,3 +1,6 @@
+##### My code #####
+##### Runtime 288ms, Memory 54852KB #####
+
 from collections import deque
 
 num = int(input())
