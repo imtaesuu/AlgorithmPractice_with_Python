@@ -1,47 +1,38 @@
 ## - Leetcode 3. Longest Substring Without Repeating Characters - [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 ● 입력  
 > "pwwkew"
+
 ● 출력
 > 3
 
 ## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Stack_and_Queue/Baekjoon_1874/Baekjoon_1874.py)
 
 ```python
-import sys
+def lengthOfLongestSubstring(s: str) -> int:
+    if not s:
+        return 0
 
-def input():
-  return sys.stdin.readline().rstrip()
+    p1, p2, res = 0, 0, 1
 
-cnt = int(input())
+    while p1 + 1 < len(s) and p2 + 1 < len(s):
+        temp = s[p1:p2+1]
 
-stack, table = [], []
+        if s[p2+1] in temp:
+            p1 += 1
+            continue
+        else:
+            p2 += 1
+            res = max(res, p2 - p1 + 1)
 
-for _ in range(cnt):
-  num = int(input())
-  table.append(num)
-
-idx, rlt = 0, []
-
-for n in range(1, cnt + 1):
-  stack.append(n)
-  rlt.append("+")
-  while stack and stack[-1] == table[idx]:
-    stack.pop()
-    idx += 1
-    rlt.append("-")
-
-if stack:
-  print("NO")
-else:
-  for s in rlt:
-    print(s)
+    return res
 	
 ##### My code #####
-##### Runtime 264ms, Memory 35152KB #####
+##### Runtime 88ms, Memory 14.2MB #####
 ```
 
 ## - **How To Solve**
-- 문제를 정확히 이해하면 **스택**을 이용하여 풀이하기 그렇게 어렵지 않은 형태이다.
-- 먼저 입력값으로 **table**을 만든 다음, 오름차순으로 **stack** 쌓는 동시에 해결하도록 한다.
-- 만들어진 **table** 의 값을 이용하기 위해 따로 위치포인터 **idx**를 만든다.
-- 오름차순으로 **스택**을 쌓는 도중 **stack[-1]** 과 **table[idx]** 를 비교하여 해결한다.
+- 위치 포인터 두개를 사용하여 두개를 각각 증가시키면서 중복문자를 확인한다.
+- 포인터가 증가할때 마다 결과값에 **max**를 이용하여 항상 결과값이 최대값이 되도록한다.
+- 내 코드는 좀 더 두개의 포인터에 집중했다면 책에서는 **해시 테이블**을 이용하였다.
+- 책의 코드가 좀더 가독성있고 다른 문제에서도 이용하기 쉬운 코드인 것 같다.
+- 좀더 유연한 사고방식을 가지면 무작정 구현에 매달리지 않고 이 문제를 풀 수 있을듯 하다.
