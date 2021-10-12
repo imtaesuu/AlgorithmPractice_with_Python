@@ -42,7 +42,7 @@ https://covenant.tistory.com/220
 
 **Heap**
 ---
-:pushpin: **Leetcode** :pushpin: 
+:pushpin: **Leetcode** :pushpin:  
 문제 | 체감 난이도
 :----: | :----:
 [**LeetCode 347**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Leetcode_Top_K_Frequent_Elements) | :fire:
