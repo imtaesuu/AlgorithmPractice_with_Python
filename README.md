@@ -11,6 +11,7 @@ https://covenant.tistory.com/220
 - [__Stack, Queue 문제__](#stack-queue)  
 - [__heap 문제__](#heap)
 - [__Two Pointer 문제__](#two-pointer)
+- [__Graph Traversal 문제__](#graph-traversal)
 
 
 **Linked List**  
@@ -53,3 +54,10 @@ https://covenant.tistory.com/220
 문제 | 체감 난이도
 :----: | :----:
 [**LeetCode 3**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Two_Pointer/Leetcode_Longest_Substring_Without_Repeating_Characters) | :fire::fire:
+
+**Graph Traversal**
+---
+:pushpin: **Leetcode** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+[**LeetCode 200**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Graph_Traversal/Leetcode_Number_of_Islands) | :fire:
