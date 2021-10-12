@@ -7,6 +7,7 @@ __Github__ 와 친해지고 **자료구조** 와 **알고리즘** 학습내용�
 
 - [__Linked List 문제__](#linked-list)
 - [__Stack, Queue 문제__](#stack-queue)  
+- [__heap 문제__](#heap)
 - [__Two Pointer 문제__](#two-pointer)
 
 
@@ -36,6 +37,13 @@ __Github__ 와 친해지고 **자료구조** 와 **알고리즘** 학습내용�
 | [**Baekjoon 9012 올바른 괄호 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_9012) | :fire:
 | [**Baekjoon 10828 스택 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_10828) | :fire:
 | [**Baekjoon 18258 큐 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_18258) | :fire:
+
+**Heap**
+---
+:pushpin: **Leetcode** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+[**LeetCode 347**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Leetcode_Top_K_Frequent_Elements) | :fire:
 
 **Two Pointer**
 ---
