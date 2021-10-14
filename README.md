@@ -61,3 +61,9 @@ https://covenant.tistory.com/220
 문제 | 체감 난이도
 :----: | :----:
 [**LeetCode 200**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Graph_Traversal/Leetcode_Number_of_Islands) | :fire:
+
+:pushpin: **Baeckjoon** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+| [**Baekjoon 2606 바이러스 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_2606) | :fire:
+
