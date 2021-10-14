@@ -38,6 +38,7 @@ https://covenant.tistory.com/220
 | [**Baekjoon 1935 후위 표기식 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1935) | :fire:
 | [**Baekjoon 2164 카드 소거 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_2164) | :fire:
 | [**Baekjoon 9012 올바른 괄호 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_9012) | :fire:
+| [**Baekjoon 10799 쇠막대기 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_10799) | :fire::fire:
 | [**Baekjoon 10828 스택 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_10828) | :fire:
 | [**Baekjoon 18258 큐 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_18258) | :fire:
 
