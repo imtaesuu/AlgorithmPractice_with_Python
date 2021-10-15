@@ -66,5 +66,5 @@ https://covenant.tistory.com/220
 :pushpin: **Baeckjoon** :pushpin: 
 문제 | 체감 난이도
 :----: | :----:
+| [**Baekjoon 1260 DFS와 BFS 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_1260) | :fire:
 | [**Baekjoon 2606 바이러스 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_2606) | :fire:
-

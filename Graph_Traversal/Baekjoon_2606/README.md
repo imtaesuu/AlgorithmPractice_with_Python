@@ -31,19 +31,19 @@ for _ in range(pairs):
      graph[cpt1] += [cpt2]
      graph[cpt2] += [cpt1]
 
-def dps(start = 1, arrived = []):
+def dfs(start = 1, arrived = []):
   arrived.append(start)
   for cpt in graph[start]:
     if cpt not in arrived:
-      arrived = dps(cpt, arrived)
+      arrived = dfs(cpt, arrived)
   return arrived
 
-print(len(dps()) - 1)
+print(len(dfs()) - 1)
 	
 ##### My code #####
 ##### Runtime 68ms, Memory 29200KB #####
 ```
 
 ## - **How To Solve**
-- 간단한 **dps** 문제이며, 입력값을 **dic** 을 이용한 그래프를 만들어 풀이했다.
-- 1 컴퓨터와 연결된 컴퓨터들의 개수만 구하면 되기때문에 **dps**를 사용하면 편하다.
+- 간단한 **dfs** 문제이며, 입력값을 **dic** 을 이용한 그래프를 만들어 풀이했다.
+- 1 컴퓨터와 연결된 컴퓨터들의 개수만 구하면 되기때문에 **dfs**를 사용하면 편하다.
