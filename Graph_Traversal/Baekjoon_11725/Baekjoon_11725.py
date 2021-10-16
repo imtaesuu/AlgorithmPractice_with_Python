@@ -29,4 +29,5 @@ def dps():
         if res[val - 1] == 0:
           res[val - 1] = key
   
-dps(); for child in res[1:]: print(child)
+dps()
+for child in res[1:]: print(child)
