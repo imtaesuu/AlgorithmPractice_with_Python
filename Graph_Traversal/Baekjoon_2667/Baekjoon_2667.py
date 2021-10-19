@@ -1,11 +1,8 @@
+##### My code #####
+##### Runtime 84ms, Memory 29820KB #####
+
 import sys
-from collections import deque
-
-#sys.setrecursionlimit()
-
 input = sys.stdin.readline
-
-
 N = int(input())
 graph = [list(map(int,input().rstrip())) for _ in range(N)]
 
