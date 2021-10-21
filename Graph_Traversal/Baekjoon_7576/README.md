@@ -12,10 +12,6 @@
 ## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_7576/Baekjoon_7576.pyy)
 
 ```python
-##### My code #####
-##### Runtime 108ms, Memory 31900KB #####
-
-import sys
 import sys
 from collections import deque
 

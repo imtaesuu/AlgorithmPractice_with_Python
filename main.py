@@ -2,40 +2,30 @@ import sys
 from collections import deque
 from pprint import pprint
 #sys.setrecursionlimit()
-
 input = sys.stdin.readline
 
-M, N = map(int, input().split())
+R, C, N = map(int, input().split())
 graph = []
+res = []
 queue = deque()
 
-for i in range(N):
-    graph.append(list(map(int, input().split())))
-    for j in range(M):
-        if graph[N][M] == 1:
+for i in range(R):
+    graph.append(list(map(str, input().split())))
+    if j in range(C):
+        if graph[i][j] == 'O':
             queue.append((i, j))
-
-
+            
 def bfs():
     dx, dy = [-1, 1, 0, 0], [0, 0, -1, 1]
+    
     while queue:
         x, y = queue.popleft()
+        
         for i in range(4):
-            nx, ny = x + dx[i], y + dy[i] 
-            if 0<=nx< N and 0<=ny< M and \
-                graph[nx][ny] == 0:
-                    graph[nx][ny] = graph[x][y] + 1
-                    queue.append((nx, ny))
+            nx, ny = x + dx[i], y + dy[i]
+            
+            if 0<=nx< R and 0<=ny < C and \
+                graph[nx][ny] != 'O':
+                    graph[nx][ny] = 0
 
-bfs()
-res = 0
-for i in graph:
-    for j in i:
-        if j == 0:
-            print(-1)
-            exit(0)
-        res = max(res, j)
-print(res - 1)
-                    
-            
-            
+        
