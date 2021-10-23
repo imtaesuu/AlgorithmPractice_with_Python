@@ -1,14 +1,11 @@
+##### My code #####
+##### Runtime 3852ms, Memory 34228KB #####
+
 import sys
 from collections import deque
 input = sys.stdin.readline
 R, C, N = map(int, input().split())
-graph = [['.','.','.','.','.','.','.'],
-         ['.','.','.','O','.','.','.'],
-         ['.','.','.','.','O','.','.'],
-         ['.','.','.','.','.','.','.'],
-         ['O','O','.','.','.','.','.'],
-         ['O','O','.','.','.','.','.']]
-
+graph = [list(input().rstrip()) for _ in range(R)]
 queue = deque()
 
 def fill():
@@ -20,8 +17,7 @@ def find():
     for i in range(R):
         for j in range(C):
             if graph[i][j] == 'O':
-                queue.append((i, j))
-                
+                queue.append((i, j))   
 def explosion():
     while queue:
         x, y = queue.popleft()
@@ -31,11 +27,6 @@ def explosion():
             nx, ny = x + dx[i], y + dy[i]
             if 0<=nx<R and 0<=ny<C:
                 graph[nx][ny] = '.'
-
-# for i in range(R):
-#     graph.append(list(input().rstrip()))
-#     for j in range(C):
-#         graph[i][j] = 0 if graph[i][j] == '.' else 2
  
 for i in range(N - 1):
     if i % 2 == 1:
@@ -43,8 +34,6 @@ for i in range(N - 1):
     else:
         find()
         fill()
-    print(queue)
-
 for i in graph:
     for j in i:
         print(j, end = "")

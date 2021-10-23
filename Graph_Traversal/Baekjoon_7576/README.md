@@ -9,7 +9,7 @@
 ● 출력
 > 8
 
-## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_7576/Baekjoon_7576.pyy)
+## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_7576/Baekjoon_7576.py)
 
 ```python
 import sys
