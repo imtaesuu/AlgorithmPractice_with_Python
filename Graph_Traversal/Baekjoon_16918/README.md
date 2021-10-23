@@ -1,14 +1,21 @@
 ## - Baekjoon 16918 붐버맨 문제 - [Link](https://www.acmicpc.net/problem/16918)
 ● 입력  
-> 6 4  
-0 0 0 0 0 0  
-0 0 0 0 0 0  
-0 0 0 0 0 0  
-0 0 0 0 0 1
+>6 7 3  
+.......  
+...O...  
+....O..  
+.......  
+OO.....  
+OO.....
 
 ● 출력
-> 8
-/workspace/Python_With_Github/
+>OOO.OOO  
+OO...OO  
+OOO...O  
+..OO.OO  
+...OOOO  
+...OOOO
+
 ## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16918/Baekjoon_16918.py)
 
 ```python
