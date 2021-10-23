@@ -1,7 +1,8 @@
-import sys, copy
+##### My code #####
+##### Runtime 4912ms, Memory 34320KB #####
+
+import sys, copy, itertools
 from collections import deque
-from pprint import pprint
-import itertools
 input = sys.stdin.readline
 N, M = map(int, input().split())
 empty, queue = [], deque()
@@ -24,7 +25,6 @@ def bfs(table, q):
                 cnt += 1
     return cnt
     
-
 for i in range(N):
     graph.append(list(map(int, input().split())))
     for j in range(M):
@@ -40,8 +40,3 @@ for l in case:
         table[x][y] = 1  
     res = max(res, bfs(table, q))
 print(res)
-
-
-        
-    
-    

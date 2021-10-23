@@ -1,7 +1,22 @@
-import sys, copy
+## - Baekjoon 14502 연구소 문제 - [Link](https://www.acmicpc.net/problem/14502)
+● 입력  
+> 7 7  
+2 0 0 0 1 1 0  
+0 0 1 0 1 2 0  
+0 1 1 0 1 0 0  
+0 1 0 0 0 0 0  
+0 0 0 0 0 1 1  
+0 1 0 0 0 0 0  
+0 1 0 0 0 0 0
+
+● 출력
+> 27
+
+## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_14502/Baekjoon_14502.py)
+
+```python
+import sys, copy, itertools
 from collections import deque
-from pprint import pprint
-import itertools
 input = sys.stdin.readline
 N, M = map(int, input().split())
 empty, queue = [], deque()
@@ -24,7 +39,6 @@ def bfs(table, q):
                 cnt += 1
     return cnt
     
-
 for i in range(N):
     graph.append(list(map(int, input().split())))
     for j in range(M):
@@ -40,8 +54,10 @@ for l in case:
         table[x][y] = 1  
     res = max(res, bfs(table, q))
 print(res)
+	
+##### My code #####
+##### Runtime 4912ms, Memory 34320KB #####
+```
 
-
-        
-    
-    
+## - **How To Solve**
+- 월요일에 적자
