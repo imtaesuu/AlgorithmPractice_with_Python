@@ -1,16 +1,13 @@
+##### My code #####
+##### Runtime 132ms, Memory 32036KB #####
+
 import sys
 from collections import deque
-from pprint import pprint
 input = sys.stdin.readline
 
 W, H = map(int, input().split())
 q =  deque()
-#[list(map(int, input().split())) for _ in range(H)],
-graph = [[0, 1, 1, 1, 0, 1, 1, 1],
-         [0, 1, 0, 0, 1, 1, 0, 0],
-         [1, 0, 0, 1, 1, 1, 1, 1],
-         [0, 1, 0, 1, 1, 0, 1, 0],
-         [0, 1, 1, 0, 1, 1, 0, 0]]
+graph = [list(map(int, input().split())) for _ in range(H)]
 dx = [[0, 0, 1, 1, -1, -1], [0, 0, 1, 1, -1, -1]]
 dy = [[-1, 1, 0, 1, 0, 1], [-1 ,1, 0, -1, 0, -1]]
 res = 0
@@ -38,7 +35,6 @@ def change_wall(x, y):
         x, y = q.popleft()
         l.append((x, y))
         d = x%2
-
         for i in range(6):
             nx, ny = x + dx[d][i], y + dy[d][i] 
             if nx < 0 or nx >= H or \
@@ -50,18 +46,16 @@ def change_wall(x, y):
                     q.append((nx, ny))
     if not trapped:
         for i, j in l:
-            graph[i][j] = -1
-                    
+            graph[i][j] = -1                   
+
 for i in range(H):
     for j in range(W):
         if graph[i][j] == 0:
             graph[i][j] = '0'
             change_wall(i, j)
-               
 for i in range(H):
     for j in range(W):
         if graph[i][j] == 1:
             graph[i][j] = '1'
             cnt_wall(i, j)
-
 print(res)
