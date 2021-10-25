@@ -60,4 +60,6 @@ print(res)
 ```
 
 ## - **How To Solve**
-- 월요일에 적자
+- **itertools.combinations** 와 **deepcopy**의 사용이 핵심인 문제이다.
+- 3개의 벽을 설치하는 경우의 수를 조합을 이용하여 얻어내 case에 넣고 루프를 돌렸다.
+- **bfs**로 각 경우마다의 카운팅 값을 **max**를 이용하여 결과값에 넣어준다.
