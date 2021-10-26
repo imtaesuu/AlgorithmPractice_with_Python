@@ -1,3 +1,6 @@
+##### My code #####
+##### Runtime 2032ms, Memory 141920KB #####
+
 import sys
 from collections import deque
 input = sys.stdin.readline
@@ -38,9 +41,7 @@ def open_graph(x, y, visited, table):
         num = int(country / cnt)
         for i, j in temp:
             table[i][j] = num
-    
-    
-            
+          
 res = 0
 while True:
     visited = [[False] * N for _ in range(N)]
@@ -48,7 +49,6 @@ while True:
         for j in range(N):
             if not visited[i][j]:
                 open_graph(i, j, visited, graph)
-
     if move:
         res += 1
         move = False

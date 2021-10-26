@@ -34,7 +34,7 @@ for _ in range(node - 1):
     graph[node1] += [node2]
     graph[node2] += [node1]
 
-def dps():
+def dfs():
   arrived = [0]*(node+1)
   stack = [1]
 
@@ -47,7 +47,7 @@ def dps():
         if res[val - 1] == 0:
           res[val - 1] = key
   
-dps()
+dfs()
 for child in res[1:]: print(child)
 	
 ##### My code #####
