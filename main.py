@@ -3,74 +3,28 @@ from collections import deque
 from pprint import pprint
 input = sys.stdin.readline
 
-N, M = map(int, input().split())
-graph = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
-         [0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0],
-         [0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
-         [0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0],
-         [0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
 
-# for _ in range(N):
-#     temp = list(map(int, input().split()))
-#     graph.append(temp)
+candidates = [2,3,5]
+target = 8
 
-def bfs(x, y, graph, visited):
-    q = deque()
-    q.append((x, y))
-    dx, dy = [-1, 1, 0, 0], [0, 0, -1 ,1]
-    visited[x][y] = True
-    trapped = True
-    ls = []
-    cnt = 0
-    
-    while q:
-        x, y = q.popleft()
-        for i in range(4):
-            nx, ny = x + dx[i], y + dy[i]
-    
-            if nx < 0 or nx >= N or \
-                ny < 0 or ny >= M:
-                    trapped = False
-                    continue
-            
-            if visited[nx][ny]: continue
-            
-            if graph[nx][ny] == 0:
-                q.append((nx, ny))
-                visited[nx][ny] = True
+res, temp = [], []
 
-            elif graph[nx][ny] == 1:
-                ls.append((nx, ny))
-                cnt += 1
-                visited[nx][ny] = True
-    if not trapped:
-        for i, j in ls:
-            graph[i][j] = 0
-    return cnt
-res, num = 0, 0
+def dfs(idx, num):
+    if num >= target:
+        if num == target:
+            print("저장")
+            res.append(temp[:])
+        return
 
-while True:
-    visited = [[False] * M for _ in range(N)]
-    temp = bfs(0, 0, graph, visited)
-    num += 1
-    if temp == 0:
-        print(num - 1, res, sep='\n')
-        break
-    res = temp
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    for i, v in enumerate(candidates[idx:]):
+        temp.append(v)
+        num += v
+        print(i, v, num)
+        dfs(i, num)
+        temp.pop()
+        num -= v
+
+dfs(0, 0)
+print(res)
+
+
