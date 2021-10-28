@@ -1,26 +1,16 @@
+##### My code #####
+##### Runtime 132ms, Memory 33008KB #####
+
 import sys
 from collections import deque
-from pprint import pprint
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
-graph = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
-         [0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0],
-         [0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
-         [0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0],
-         [0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
-
-# for _ in range(N):
-#     temp = list(map(int, input().split()))
-#     graph.append(temp)
+res, num = 0, 0
+graph = []
+for _ in range(N):
+    temp = list(map(int, input().split()))
+    graph.append(temp)
 
 def bfs(x, y, graph, visited):
     q = deque()
@@ -46,7 +36,6 @@ def bfs(x, y, graph, visited):
             if graph[nx][ny] == 0:
                 q.append((nx, ny))
                 visited[nx][ny] = True
-
             elif graph[nx][ny] == 1:
                 ls.append((nx, ny))
                 cnt += 1
@@ -55,7 +44,6 @@ def bfs(x, y, graph, visited):
         for i, j in ls:
             graph[i][j] = 0
     return cnt
-res, num = 0, 0
 
 while True:
     visited = [[False] * M for _ in range(N)]
@@ -65,12 +53,3 @@ while True:
         print(num - 1, res, sep='\n')
         break
     res = temp
-    
-    
-    
-    
-    
-    
-    
-    
-    
