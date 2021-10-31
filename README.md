@@ -31,7 +31,7 @@ https://baactree.tistory.com/52
 | [**LeetCode 20**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Leetcode_Valid_Parentheses) | :fire:
 | [**LeetCode 739**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Leetcode_Daily_Temperatures) | :fire::fire:
 
-:pushpin: **Baeckjoon** :pushpin: 
+:pushpin: **Baekjoon** :pushpin: 
 문제 | 체감 난이도
 :----: | :----:
 | [**Baekjoon 1158 요세푸스 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1158) | :fire:
@@ -67,7 +67,7 @@ https://baactree.tistory.com/52
 [**LeetCode 77**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Graph_Traversal/Leetcode_Combinations) | :fire:
 [**LeetCode 200**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Graph_Traversal/Leetcode_Number_of_Islands) | :fire:
 
-:pushpin: **Baeckjoon** :pushpin: 
+:pushpin: **Baekjoon** :pushpin: 
 문제 | 체감 난이도
 :----: | :----:
 | [**Baekjoon 1260 DFS와 BFS 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_1260) | :fire:
@@ -83,3 +83,4 @@ https://baactree.tistory.com/52
 | [**Baekjoon 14502 연구소 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_14502) | :fire:
 | [**Baekjoon 16234 인구 이동 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16234) | :fire::fire:
 | [**Baekjoon 16918 붐버맨 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16918) | :fire::fire:
+| [**Baekjoon 16973 직사각형 탈출 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16973) | :fire::fire:
