@@ -1,3 +1,6 @@
+##### My code #####
+##### Runtime 720ms, Memory 40216KB #####
+
 import sys
 from collections import deque
 input = lambda : sys.stdin.readline().rstrip()
@@ -31,6 +34,3 @@ for i in range(n):
 
 for i in range(n):
     print(' '.join(map(str, graph[i])))
-    
-
-                

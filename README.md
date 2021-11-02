@@ -81,6 +81,7 @@ https://baactree.tistory.com/52
 | [**Baekjoon 11725 트리의 부모 찾기 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_11725) | :fire:
 | [**Baekjoon 13549 숨바꼭질 3 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_13549) | :fire::fire:
 | [**Baekjoon 14502 연구소 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_14502) | :fire:
+| [**Baekjoon 14940 쉬운 최단거리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_14940) | :fire:
 | [**Baekjoon 16234 인구 이동 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16234) | :fire::fire:
 | [**Baekjoon 16918 붐버맨 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16918) | :fire::fire:
 | [**Baekjoon 16973 직사각형 탈출 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16973) | :fire::fire:
