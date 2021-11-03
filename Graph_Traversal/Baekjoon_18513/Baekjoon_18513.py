@@ -1,3 +1,6 @@
+##### My code #####
+##### Runtime 316ms, Memory 60376KB #####
+
 import sys
 from collections import deque
 input = lambda : sys.stdin.readline().rstrip()
@@ -5,7 +8,6 @@ input = lambda : sys.stdin.readline().rstrip()
 N, K = map(int, input().split())
 sprs = deque()
 visited = set()
-
 
 for i in list(map(int, input().split())):
     sprs.append((i, 1))
