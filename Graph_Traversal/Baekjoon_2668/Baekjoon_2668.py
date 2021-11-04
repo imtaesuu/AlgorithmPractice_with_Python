@@ -1,11 +1,11 @@
+##### My code #####
+##### Runtime 92ms, Memory 31848KB #####
+
 import sys
-from collections import deque
 input = lambda : sys.stdin.readline().rstrip()
 N = int(input())
 graph, res = {}, set()
-
-for i in range(1, N+1):
-    graph[i] = int(input())
+for i in range(1, N+1): graph[i] = int(input())
 
 def dfs(node):
     stack = [node]
