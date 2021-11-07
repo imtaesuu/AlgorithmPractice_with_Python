@@ -1,17 +1,13 @@
+##### My code #####
+##### Runtime 700ms, Memory 163688KB #####
+
 import sys
 from collections import deque
 input = lambda : sys.stdin.readline().rstrip()
 
 K = int(input())
 W, H = map(int, input().split())
-
 graph = []
-# graph = [[0 ,0 ,0 ,0],
-#          [-1 ,0 ,0 ,0],
-#          [0 ,0 ,-1 ,0],
-#          [0 ,-1 ,0 ,0],
-#          [0 ,-1 ,0 ,0],
-#          [0 ,-1 ,0 ,0]]
 for _ in range(H):
     graph.append(list(map(int, input().split())))
 visited = [[[0] * (K + 1) for _ in range(W)] for _ in range(H)]
@@ -21,8 +17,7 @@ hdx, hdy = [-2, -1, -2, -1, 2, 1, 2, 1], [-1, -2, 1, 2, -1, -2, 1, 2]
 def bfs():
     q = deque([(0, 0, 0)])
     while q:
-        x, y, z = q.popleft()
-        
+        x, y, z = q.popleft()        
         for i in range(8):
             hx, hy = x + hdx[i], y + hdy[i]
             if z+1>K: break
@@ -45,4 +40,3 @@ if H == 1 and W == 1:
     print(0)
 else:
     print(bfs())
-print(*visited, sep = '\n')
