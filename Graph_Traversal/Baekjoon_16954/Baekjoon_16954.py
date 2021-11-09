@@ -47,7 +47,7 @@ def bfs():
         for i in range(9):
             nx, ny = x + dx[i], y + dy[i]  
             if 0<=nx<8 and 0<=ny<8 and graph[nx][ny] != '#' and not visited[nx][ny]:
-                if nx == 0 and ny == 7:
+                if nx == 0:
                     return 1
                 graph[x][y] = '.'
                 graph[nx][ny] = 1
