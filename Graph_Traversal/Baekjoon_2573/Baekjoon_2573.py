@@ -1,16 +1,12 @@
+##### My code #####
+##### Runtime 3620ms, Memory 462812KB #####
+
 import sys
 from collections import deque
+sys.setrecursionlimit(10000)
 input = lambda : sys.stdin.readline().rstrip()
-
 N, M = map(int, input().split())
-
 graph = [list(map(int, input().split())) for _ in range(N)]
-# graph = [[0, 0, 0, 0, 0, 0, 0],
-#          [0, 2, 4, 5, 3, 0, 0],
-#          [0, 3, 0, 2, 5, 2, 0],
-#          [0, 7, 6, 2, 4, 0, 0],
-#          [0, 0, 0, 5, 0, 0, 0],
-#          [0, 0, 0, 0, 0, 0, 0]]
 move = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
 def bfs(x, y, visited, graph):
@@ -18,8 +14,7 @@ def bfs(x, y, visited, graph):
     visited[x][y] = True
     
     while q:
-        x, y = q.popleft()
-        
+        x, y = q.popleft()   
         for i in range(4):
             nx, ny = x + move[i][0], y + move[i][1]
             
@@ -39,11 +34,8 @@ def dfs(x, y, visited):
     for i in range(4):
         nx, ny = x + move[i][0], y + move[i][1]
         if 0<=nx<N and 0<=ny<M and not visited[nx][ny]:
-            visited[nx][ny] = True
             dfs(nx, ny, visited)
-                
-print(graph)      
-        
+                  
 t = 0
 while True:
     cnt = 0
@@ -58,8 +50,7 @@ while True:
         for j in range(M):
             if graph[i][j] != 0 and not visited[i][j]:
                 dfs(i, j, visited)
-                cnt += 1
-    
+                cnt += 1 
     t += 1
     if cnt >= 2:
         print(t)
