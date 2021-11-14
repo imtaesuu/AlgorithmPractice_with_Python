@@ -90,5 +90,6 @@ https://baactree.tistory.com/52
 | [**Baekjoon 16234 인구 이동 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16234) | :fire::fire:
 | [**Baekjoon 16594 움직이는 미로 탈출 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16954) | :fire:
 | [**Baekjoon 16918 붐버맨 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16918) | :fire::fire:
+| [**Baekjoon 16932 모양 만들기 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16932) | :fire::fire:
 | [**Baekjoon 16973 직사각형 탈출 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16973) | :fire::fire:
 | [**Baekjoon 18513 샘터 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_18513) | :fire:
