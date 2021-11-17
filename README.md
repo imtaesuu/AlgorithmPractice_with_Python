@@ -73,6 +73,7 @@ https://baactree.tistory.com/52
 | [**Baekjoon 1260 DFS와 BFS 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_1260) | :fire:
 | [**Baekjoon 1325 효율적인 해킹 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_1325) | :fire:
 | [**Baekjoon 1600 말이 되고픈 원숭이 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_1600) | :fire::fire:
+| [**Baekjoon 1967 트리의 지름 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_1967) | :fire:
 | [**Baekjoon 2178 미로 탐색 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_2178) | :fire:
 | [**Baekjoon 2206 벽 부수고 이동하기 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_2206) | :fire::fire:
 | [**Baekjoon 2573 빙산 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_2573) | :fire:
