@@ -1,3 +1,6 @@
+##### PyPy3 #####
+##### Runtime 760ms, Memory 395404KB #####
+
 import sys
 from collections import defaultdict, deque
 input = lambda : sys.stdin.readline().rstrip()
