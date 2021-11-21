@@ -1,29 +1,66 @@
-import sys
+import sys, math
 from collections import defaultdict, deque
 input = lambda : sys.stdin.readline().rstrip()
 
-N, M = map(int, input().split())
-graph = defaultdict(list)
-for _ in range(M):
-    p, c = map(int, input().split())
-    if c not in graph[p]:
-        graph[p] += [c]
-        graph[c] += [p]
-S, E = map(int, input().split())
+N = int(input())
+circles = [list(map(int, input().split())) + [0] for _ in range(N)]
+circles.sort(key=lambda x:x[2])
+circles.append([0, 0, sys.maxsize, 0])
+graph = {i : [] for i in range(N+1)}
 
-for k in graph.keys():
-    graph[k] = sorted(graph[k])
+def distinguish_circle(c1, c2, idx):
+    distance = math.sqrt((c1[0]-c2[0])**2+(c1[1]-c2[1])**2)
+    #작은원이 큰원 내부에 존재하는 경우
+    if (c2[2] - c1[2] > distance) or (c1[0] == c2[0] and c1[1] == c2[1]):
+        if not c1[3]:
+            graph[idx[0]].append(idx[1])
+            graph[idx[1]].append(idx[0])
+            c1[3] = 1
+            
 
-def bfs(node, visited, cnt, end):
-    q = deque([(node, visited, cnt)])
-    visited.append(node)
+def bfs(start):
+    visited = [0]*(N+1)
+    visited[start] = 1
+    distance_list = [0 for _ in range(N+1)]
+    q = deque([start])
     while q:
-        node, visited, cnt = q.popleft()
-        for child in graph[node]:
-            if child == end:
-                return (visited[:], cnt + 1)
-            if child not in visited:
-                q.append((child, visited + [child] , cnt + 1))        
+        node= q.popleft()    
+        distance_list[node] = visited[node] - 1
+        for c in graph[node]:
+            if not visited[c]:
+                visited[c] = visited[node] + 1
+                q.append(c)
+    return distance_list
 
-prev_v, prev_c = bfs(S, [], 0, E)
-print(bfs(E, prev_v, prev_c, S)[1])
+check = [[0]*(N+1) for _ in range(N+1)]
+for i in range(N):
+    for j in range(N):
+        if i != j and not check[i][j]:
+            check[i][j], check[j][i] = True, True
+            distinguish_circle(circles[i], circles[j], (i, j))
+    if not circles[i][3]:
+        graph[i].append(N)
+        graph[N].append(i)
+            
+
+distance1 = bfs(N)
+distance2 = bfs(distance1.index(max(distance1)))
+    
+# check = [[0]*(N+1) for _ in range(N+1)]
+# for i in range(1, N+1):
+#     for j in range(1, N+1):
+#         if i != j and not check[i][j]:
+#             check[i][j], check[j][i] = True, True
+#             res = max(res, bfs(i, j))
+    
+           
+print(circles, graph, sep = '\n')
+print(max(distance2))
+
+
+#  3
+#  5
+# 2 0
+#   1 4
+
+
