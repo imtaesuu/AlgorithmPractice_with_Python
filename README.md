@@ -1,7 +1,7 @@
 # AlgorithmPractice with Python
   
 __Github__ 와 친해지고 **자료구조** 와 **알고리즘** 학습내용을 정리하는 나만의 공책 :memo::memo:  
-내가 구매한 [__파이썬 알고리즘 인터뷰__](https://github.com/onlybooks/algorithm-interview) 책을 참고한 코드도 들어있다.
+내가 구매한 [__파이썬 알고리즘 인터뷰__](https://github.com/onlybooks/algorithm-interview) 책을 참고한 코드도 들어있다. 
 체감 난이도에 따라 :fire:를 추가해줬다.  
 
 https://covenant.tistory.com/220  
@@ -96,4 +96,7 @@ https://baactree.tistory.com/52
 | [**Baekjoon 16973 직사각형 탈출 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_16973) | :fire::fire:
 | [**Baekjoon 18513 샘터 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_18513) | :fire:
 | [**Baekjoon 22868 산책 (small) 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_22868) | :fire:
+<<<<<<< HEAD
 | [**Baekjoon 22946 원 이동하기 1 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_22946) | :fire::fire::fire:
+=======
+>>>>>>> ca0bee21ad656c96032f93df2a34611b648405f2

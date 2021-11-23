@@ -37,13 +37,7 @@ for i in range(N):
 
 distance1 = bfs(N)
 distance2 = bfs(distance1.index(max(distance1)))
-    
-# check = [[0]*(N+1) for _ in range(N+1)]
-# for i in range(1, N+1):
-#     for j in range(1, N+1):
-#         if i != j and not check[i][j]:
-#             check[i][j], check[j][i] = True, True
-#             res = max(res, bfs(i, j))
+
     
            
 print(circles, graph, sep = '\n')
