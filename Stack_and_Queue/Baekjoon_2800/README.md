@@ -11,7 +11,7 @@
 1+2*(3+4)  
 1+2*3+4
 
-## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Graph_Traversal/Baekjoon_2800/Baekjoon_2800.py)
+## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Stack_and_Queue/Baekjoon_2800/Baekjoon_2800.py)
 
 ```python
 import itertools

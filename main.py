@@ -2,24 +2,16 @@ import sys, math, itertools
 from collections import defaultdict, deque
 input = lambda : sys.stdin.readline().rstrip()
 
-#queue = deque([input()])
+# 3 2 3 8 7 1 8
+# 0 1 1 0 4 5 4
 
-s = '(((1)))+1'
-stack, table = [], []
-for idx, val in enumerate(s):
-    if val == '(':
-        stack.append((idx, val))
-    elif val == ')':
-        tmp = stack.pop()
-        table.append((tmp[0], idx))
-res = []
-for i in range(1, len(table)+1):
-    for j in itertools.combinations(table, i):
-        n = sorted([e for each in j for e in each], reverse = True)
-        tmp = list(s)
-        
-        for k in n:
-            del tmp[k]
-        res.append(''.join(tmp))
-res = set(res)
-print(*sorted(res), sep = '\n')
+N = int(input())
+towers = list(map(int, input().split()))
+
+table = [0]*N
+stack = []
+for i in range(N-1, -1, -1):
+    while stack and towers[i] > towers[stack[-1]]:
+        table[stack.pop()] = i+1
+    stack.append(i)
+print(' '.join(map(str, table)))
