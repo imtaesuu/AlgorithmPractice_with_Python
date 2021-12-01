@@ -1,5 +1,7 @@
-import sys, math, itertools
-from collections import defaultdict, deque
+##### Python 3 #####
+##### Runtime 500ms, Memory 57692KB #####
+
+import sys
 input = lambda : sys.stdin.readline().rstrip()
 
 N = int(input())

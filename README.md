@@ -44,6 +44,7 @@ https://baactree.tistory.com/52
 | [**Baekjoon 10799 쇠막대기 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_10799) | :fire::fire:
 | [**Baekjoon 10828 스택 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_10828) | :fire:
 | [**Baekjoon 18258 큐 구현 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_18258) | :fire:
+| [**Baekjoon 22942 데이터 체커 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_22942) | :fire:
 
 **Heap**
 ---
