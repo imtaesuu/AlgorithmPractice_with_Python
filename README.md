@@ -36,6 +36,7 @@ https://baactree.tistory.com/52
 :----: | :----:
 | [**Baekjoon 1158 요세푸스 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1158) | :fire:
 | [**Baekjoon 1874 스택 수열 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1874) | :fire:
+| [**Baekjoon 1918 후위 표기식 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1918) | :fire::fire::fire:
 | [**Baekjoon 1935 후위 표기식 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_1935) | :fire:
 | [**Baekjoon 2164 카드 소거 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_2164) | :fire:
 | [**Baekjoon 2493 탑 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Stack_and_Queue/Baekjoon_2493) | :fire:

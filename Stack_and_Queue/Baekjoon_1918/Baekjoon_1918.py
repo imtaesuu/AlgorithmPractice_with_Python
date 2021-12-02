@@ -1,11 +1,9 @@
-import sys, math, itertools
-from collections import defaultdict, deque
-input = lambda : sys.stdin.readline().rstrip()
+##### Python 3 #####
+##### Runtime 88ms, Memory 29200KB #####
 
-elements = list('a-b-c-d-e-f-g') 
+elements = list(input()) 
 stack, res = [], []
 table = {'*' : 2, '/' : 2, '+' : 1, '-' : 1, '(' : 0}
-
 
 for e in elements:
     if e.isalpha():
