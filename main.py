@@ -2,28 +2,17 @@ import sys, math, itertools
 from collections import defaultdict, deque
 input = lambda : sys.stdin.readline().rstrip()
 
-elements = list('a-b-c-d-e-f-g') 
-stack, res = [], []
-table = {'*' : 2, '/' : 2, '+' : 1, '-' : 1, '(' : 0}
+N, M = map(int, input().split())
+table = [input() for _ in range(N)]
+dic = defaultdict(int)
 
+cnt = 0
 
-for e in elements:
-    if e.isalpha():
-        res.append(e)
-    elif e == '(':
-        stack.append(e)
-    elif e == ')':
-        while True:
-            tmp = stack.pop()    
-            if tmp == '(':
-                break
-            res.append(tmp)
-    else:
-        while stack and table[stack[-1]] >= table[e]:
-            res.append(stack.pop())
-        stack.append(e)
+for _ in range(M):
+    string = input()
+    dic[string] += 1
 
-while stack:
-    res.append(stack.pop())
-
-print(''.join(res))  
+for key in dic.keys():
+    if key in table:
+        cnt += dic[key]
+print(cnt)
