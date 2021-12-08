@@ -1,7 +1,7 @@
-import sys, math, itertools
-from collections import Counter
-import heapq
-    
+##### Python 3 #####
+##### Runtime 876ms, Memory 31268KB #####
+
+import sys, heapq 
 input = sys.stdin.readline
 
 N = int(input())
