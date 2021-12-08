@@ -8,9 +8,9 @@ https://covenant.tistory.com/220
 https://baactree.tistory.com/52
 
 **My Skill**
-> 메모리 제한이 빡빡할 때는 제한된 크기에서 풀이하기
-> 그래프 탐색 문제에서 3차원 배열의 사용이나 스택이나 큐에 튜플 넣기
-> 트리에서 가장 먼 거리 = A 가장 먼 B, B 가장 먼 C
+> 메모리 제한이 빡빡할 때는 제한된 크기에서 풀이하기  
+> 그래프 탐색 문제에서 3차원 배열의 사용이나 스택이나 큐에 튜플 넣기  
+> 트리에서 가장 먼 거리 = A 가장 먼 B, B 가장 먼 C  
 
 **Bookmark** 
 - [__Linked List 문제__](#linked-list)
