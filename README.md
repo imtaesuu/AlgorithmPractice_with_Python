@@ -9,8 +9,8 @@ https://baactree.tistory.com/52
 
 **My Skill**
 > 메모리 제한이 빡빡할 때는 제한된 크기에서 풀이하기  
-> 그래프 탐색 문제에서 3차원 배열의 사용이나 스택이나 큐에 튜플 넣기  
-> 트리에서 가장 먼 거리 = A 가장 먼 B, B 가장 먼 C  
+그래프 탐색 문제에서 3차원 배열의 사용이나 스택이나 큐에 튜플 넣기   
+트리에서 가장 먼 거리 = A 가장 먼 B, B 가장 먼 C  
 
 **Bookmark** 
 - [__Linked List 문제__](#linked-list)
@@ -62,8 +62,10 @@ https://baactree.tistory.com/52
 :pushpin: **Baekjoon** :pushpin: 
 문제 | 체감 난이도
 :----: | :----:
-[**Baekjoon 7662 이중 우선순위 큐 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_7662) | :fire::fire:
 [**Baekjoon 2075 N번째 큰 수 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_2075) | :fire::fire:
+[**Baekjoon 7662 이중 우선순위 큐 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_7662) | :fire::fire:
+[**Baekjoon 21939 문제 추천 시스템 Version 1 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_21939) | :fire::fire:
+
 
 **Two Pointer**
 ---
