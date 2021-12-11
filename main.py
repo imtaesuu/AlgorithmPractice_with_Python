@@ -4,35 +4,81 @@ import heapq
     
 input = sys.stdin.readline
 
-maxh, minh = [], []
-solved = defaultdict(int)
-
-heapq.heapify
+# Case. 1 처음부터 힙에 분류해서 넣기
+# Case. 2 분류하지말고 나중에 check함수에 tmp 만들어서 내보낸 후 다시 합치기
 
 
-for _ in range(int(input())):
-    P, L = map(int, input().split())
-    heapq.heappush(maxh, (-L, -P))
-    heapq.heappush(minh, (L, P))
+problems = defaultdict(list)
+
+def add(P, L, G):
+    heapq.heappush(problems['minh'], (L, P, G))
+    heapq.heappush(problems['maxh'], (-L, -P, G))
+    heapq.heappush(problems[G], (L, P, G))
+    heapq.heappush(problems[-G], (-L, -P, G))
+    
+def strd_L(heap, level):
+
+    
+N = int(input())
+for _ in range(N):
+    P, L, G = map(int, input().split())
+    add(P, L, G)
 
 M = int(input())
 for _ in range(M):
     cmd = input().split()
-    P = int(cmd[1])
-    if cmd[0] == 'add':
-        solved[P] = 0
-        L = int(cmd[2])
-        heapq.heappush(maxh, (-L, -P))
-        heapq.heappush(minh, (L, P))
-    elif cmd[0] == 'solved':
-        solved[P] = 1
-    else:
-        while heap and solved[-maxh[0][1]]:
-            heapq.heappop(maxh)
-        while heap and solved[minh[0][1]]:
-            heapq.heappop(minh)
+    
+    if cmd[0] == 'recommend':
+        g, x = int(cmd[1]), int(cmd[2])
+        if x == 1:
+            print(-problems[-g][1])
+        else:
+            print(problems[g][1])
+    
+    elif cmd[0] == 'recommend2':
+        x = int(cmd[1])
+        if x == 1:
+            print(-problems['maxh'][1])
+        else:
+            print(problems['minh'][1])
+    
+    elif cmd[0] == 'recommend3':
+        x, l = int(cmd[1]), int(cmd[2])
+        tmp = []
+        if x == 1:
+            while problems['minh']:
+                if problems['minh'][0] >= l:
+                    print(problems['minh'][1])
+                    break
+                else: tmp.append(heapq.heappop(problems['minh']))
+            
+            if not problems['minh']: print(-1)
+            while tmp: heapq.heappush(problems['minh'], tmp.pop())
         
-        if P == 1 and maxh:
-            print(-maxh[0][1])
-        elif P == -1 and minh:
-            print(minh[0][1])
+        else:
+            while problems['maxh']:
+                if problems['maxh'][0] < l:
+                    print(-problems['maxh'][1])
+                    break
+                else: tmp.append(heapq.heappop(problems['maxh']))
+            
+            if not problems['maxh']: print(-1)
+            while tmp: heapq.heappush(problems['maxh'], tmp.pop())
+    
+    elif cmd[0] == 'add':
+        p, l, g = map(int, cmd[1:])
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
