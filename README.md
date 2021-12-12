@@ -65,6 +65,7 @@ https://baactree.tistory.com/52
 [**Baekjoon 2075 N번째 큰 수 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_2075) | :fire::fire:
 [**Baekjoon 7662 이중 우선순위 큐 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_7662) | :fire::fire:
 [**Baekjoon 21939 문제 추천 시스템 Version 1 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_21939) | :fire::fire:
+[**Baekjoon 21944 문제 추천 시스템 Version 2 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Heap/Baekjoon_21944) | :fire::fire:
 
 
 **Two Pointer**
