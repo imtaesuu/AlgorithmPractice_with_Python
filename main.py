@@ -82,6 +82,7 @@ for _ in range(M):
         add_pb(p, l, g)
     else:
         problem_dict[int(args[0])] = 0
+    test
         
         
         
