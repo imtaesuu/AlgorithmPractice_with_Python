@@ -16,6 +16,7 @@ https://baactree.tistory.com/52
 
 **Memo**
 > 힙으로 중앙값 구하는 것 연습하기  
+
 **Bookmark** 
 - [__Linked List 문제__](#linked-list)
 - [__Stack, Queue 문제__](#stack-queue)  
