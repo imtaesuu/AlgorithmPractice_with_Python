@@ -19,7 +19,26 @@ def check_item(user, item):
     
 
 
+<<<<<<< HEAD
 N, L, F = input().split()
+=======
+        print(p)
+    elif cmd == 'add':
+        p, l, g = map(int, args)
+        add_pb(p, l, g)
+    else:
+        problem_dict[int(args[0])] = 0
+    test 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+>>>>>>> 360834c5f5b55cf27b8c68104ed33f5d5d43cc73
 
 # 미리 대여 기간을 datetime으로 전환
 period = datetime.timedelta(days=int(L[:3]), hours=int(L[4:6]), minutes=int(L[7:]))
