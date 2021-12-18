@@ -1,7 +1,8 @@
-import sys, datetime , math, itertools
-from collections import Counter, defaultdict
-import heapq
-    
+##### Python 3 #####
+##### Runtime 564ms, Memory 59980KB #####
+
+import sys, datetime, math
+from collections import defaultdict
 input = sys.stdin.readline
 
 # 문자열을 datetime으로 바꿔주는 함수
@@ -17,8 +18,6 @@ def check_item(user, item):
             return True
     return False
     
-
-
 N, L, F = input().split()
 
 # 미리 대여 기간을 datetime으로 전환
@@ -47,10 +46,4 @@ for _ in range(int(N)):
 if res:
     for user in sorted(res.keys()):
         print(user, res[user])
-else:
-    print(-1)
-            
-            
-        
-
-        
+else: print(-1)

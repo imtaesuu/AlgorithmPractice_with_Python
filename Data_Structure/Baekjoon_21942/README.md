@@ -1,7 +1,23 @@
-import sys, datetime , math, itertools
-from collections import Counter, defaultdict
-import heapq
-    
+## - Baekjoon 21942 부품 대여장 - [Link](https://www.acmicpc.net/problem/21942)
+● 입력  
+> 8 014/00:00 5  
+2021-01-01 09:12 arduino tony9402  
+2021-01-13 13:24 arduino tony9402  
+2021-01-23 14:04 raspberrypi tony9402  
+2021-02-01 18:21 resistance amsminn  
+2021-02-03 23:14 transistor codethinking  
+2021-02-08 22:14 transistor codethinking  
+2021-02-09 12:45 resistance amsminn  
+2021-02-13 14:37 raspberrypi tony9402     
+
+● 출력
+> tony9402 50565 
+
+## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Data_Structure/Baekjoon_21942/Baekjoon_21942.py)
+
+```python
+import sys, datetime, math
+from collections import defaultdict
 input = sys.stdin.readline
 
 # 문자열을 datetime으로 바꿔주는 함수
@@ -17,8 +33,6 @@ def check_item(user, item):
             return True
     return False
     
-
-
 N, L, F = input().split()
 
 # 미리 대여 기간을 datetime으로 전환
@@ -47,10 +61,14 @@ for _ in range(int(N)):
 if res:
     for user in sorted(res.keys()):
         print(user, res[user])
-else:
-    print(-1)
-            
-            
-        
+else: print(-1)
+	
+##### Python 3 #####
+##### Runtime 564ms, Memory 59980KB #####
+```
 
-        
+## - **How To Solve**
+- dict와 내장함수 datetime을 이용하여 풀이한 문제
+- 주의할점은 부품이 한개가 아니고 여러개 있다는 전제하에서 문제를 풀이해야하는 것
+- list를 이용하는 방법도 있겠지만, 본인은 dict안에 dict를 넣어서 좀더 간결하게 풀이함
+- 구현도 크게 어렵지 않고 주어진 user와 item의 수가 적어 시간초과 걱정도 크게 없었던 문제

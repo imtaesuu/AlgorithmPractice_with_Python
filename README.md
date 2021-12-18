@@ -13,12 +13,19 @@ https://baactree.tistory.com/52
 트리에서 가장 먼 거리 = A 가장 먼 B, B 가장 먼 C  
 
 **Bookmark** 
+- [__Data_Structure 문제__](#data-structure)
 - [__Linked List 문제__](#linked-list)
 - [__Stack, Queue 문제__](#stack-queue)  
 - [__heap 문제__](#heap)
 - [__Two Pointer 문제__](#two-pointer)
 - [__Graph Traversal 문제__](#graph-traversal)
 
+**Data_Structure**  
+---
+:pushpin: **Baekjoon** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+| [**Baekjoon 21942 부품 대여장 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Data_Structure/Baekjoon_21942) | :fire:
 
 **Linked List**  
 ---
