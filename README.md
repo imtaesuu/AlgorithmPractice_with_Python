@@ -23,6 +23,7 @@ https://baactree.tistory.com/52
 - [__Stack, Queue 문제__](#stack-queue)  
 - [__heap 문제__](#heap)
 - [__Two Pointer 문제__](#two-pointer)
+- [__Tree 문제__](#tree)
 - [__Graph Traversal 문제__](#graph-traversal)
 
 **Data_Structure**  
@@ -86,6 +87,13 @@ https://baactree.tistory.com/52
 문제 | 체감 난이도
 :----: | :----:
 [**LeetCode 3**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Two_Pointer/Leetcode_Longest_Substring_Without_Repeating_Characters) | :fire::fire:
+
+**Tree**  
+---
+:pushpin: **Baekjoon** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+| [**Baekjoon 9934 완전 이진 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_9934) | :fire::fire:
 
 **Graph Traversal**
 ---

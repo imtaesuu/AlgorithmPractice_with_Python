@@ -4,33 +4,21 @@ import heapq
     
 input = sys.stdin.readline
 
-        
-N = int(input())
-tree = {}
-for _ in range(N):
-    root, left, right = input().split()
-    tree[root] = [left, right]
+K = int(input())
+nodes = list(input().split())
+res = [[] for _ in range(K)]
 
-def preorder_traversal(root):
-    if root != '.':
-        print(root, end = '')
-        preorder_traversal(tree[root][0])
-        preorder_traversal(tree[root][1])
+def make_tree(elements, level):
+    mid = int(len(elements)/2)
+    res[level].append(elements[mid])
+    
+    if mid == 0:
+        return
+    
+    make_tree(elements[:mid], level+1)
+    make_tree(elements[mid+1:], level+1)
 
-def inorder_traversal(root):
-    if root != '.':
-        inorder_traversal(tree[root][0])
-        print(root, end = '')
-        inorder_traversal(tree[root][1])
+make_tree(nodes, 0)
 
-def postorder_traversal(root):
-    if root != '.':
-        postorder_traversal(tree[root][0])
-        postorder_traversal(tree[root][1])
-        print(root, end = '')
-
-print(preorder_traversal('A'))
-print()
-print(inorder_traversal('A'))
-print()
-print(postorder_traversal('A'))
+for i in res:
+    print(' '.join(i))
