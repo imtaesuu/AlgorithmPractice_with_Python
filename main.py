@@ -1,24 +1,40 @@
 import sys, datetime , math, itertools
 from collections import Counter, defaultdict
 import heapq
-    
+sys.setrecursionlimit(10 ** 9)
 input = sys.stdin.readline
 
-K = int(input())
-nodes = list(input().split())
-res = [[] for _ in range(K)]
+nodes = []
+while True:
+    try:
+        node = int(input())
+    except:
+        break
+    nodes.append(node)
 
-def make_tree(elements, level):
-    mid = int(len(elements)/2)
-    res[level].append(elements[mid])
-    
-    if mid == 0:
+def pre_to_post(left, right):
+    if left >= right:
         return
     
-    make_tree(elements[:mid], level+1)
-    make_tree(elements[mid+1:], level+1)
+    root = nodes[left]
+    
+    if nodes[right-1] < root:
+        pre_to_post(left+1, right)
+        print(root)
+        return
+    
+    idx = None
+    for i in range(left+1, right):
+        if root < nodes[i]:
+            idx = i
+            break
+            
+    if idx is None:
+        idx = right
+    pre_to_post(left+1, idx)
+    pre_to_post(idx, right)
+    print(root)
+    
+pre_to_post(0, len(nodes))
 
-make_tree(nodes, 0)
 
-for i in res:
-    print(' '.join(i))
