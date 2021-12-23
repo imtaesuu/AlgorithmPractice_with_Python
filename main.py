@@ -35,6 +35,6 @@ def pre_to_post(left, right):
     pre_to_post(idx, right)
     print(root)
     
-pre_to_post(0, len(nodes))
+pre_to_post(0, len(nodes)) 
 
 

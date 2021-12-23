@@ -18,7 +18,7 @@ https://baactree.tistory.com/52
 > 힙으로 중앙값 구하는 것 연습하기  
 
 **Bookmark** 
-- [__Data_Structure 문제__](#data-structure)
+- [__Data Structure 문제__](#data-structure)
 - [__Linked List 문제__](#linked-list)
 - [__Stack, Queue 문제__](#stack-queue)  
 - [__heap 문제__](#heap)
@@ -26,7 +26,7 @@ https://baactree.tistory.com/52
 - [__Tree 문제__](#tree)
 - [__Graph Traversal 문제__](#graph-traversal)
 
-**Data_Structure**  
+**Data Structure**  
 ---
 :pushpin: **Baekjoon** :pushpin: 
 문제 | 체감 난이도
