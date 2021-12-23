@@ -93,7 +93,9 @@ https://baactree.tistory.com/52
 :pushpin: **Baekjoon** :pushpin: 
 문제 | 체감 난이도
 :----: | :----:
+| [**Baekjoon 5639 이진 검색 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_5639) | :fire::fire:
 | [**Baekjoon 9934 완전 이진 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_9934) | :fire::fire:
+
 
 **Graph Traversal**
 ---
