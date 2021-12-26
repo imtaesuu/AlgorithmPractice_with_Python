@@ -96,7 +96,7 @@ https://baactree.tistory.com/52
 | [**Baekjoon 1068 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_1068) | :fire:
 | [**Baekjoon 5639 이진 검색 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_5639) | :fire::fire:
 | [**Baekjoon 9934 완전 이진 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_9934) | :fire::fire:
-
+| [**Baekjoon 14675 단절점과 단절선 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_14675) | :fire:
 
 **Graph Traversal**
 ---
