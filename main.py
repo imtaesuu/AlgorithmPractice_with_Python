@@ -1,4 +1,4 @@
-import sys, datetime , math, itertools
+import sys, datetime , math, itertools, random
 from collections import Counter, defaultdict
 import heapq
 sys.setrecursionlimit(10**9)
@@ -6,19 +6,21 @@ input = sys.stdin.readline
 
 
 
-N = int(input())
-table = [0]*100001
+N, W = map(int, input().split())
+    
+# 최대 크기로 리스트 만듦
+table = [0]*(N+1)
+table[1] = 2
+# 연결된 노드의 수, 해당 노드가 루트일 때 자식의 수를 구하는 거
 for _ in range(N-1):
     a, b = map(int, input().split())
     table[a] += 1
     table[b] += 1
 
-Q = int(input())
-for _ in range(Q):
-    args = list(map(int, input().split()))
-    
-    if args[0] == 1:
-        print('no' if table[args[1]] < 2 else 'yes')
-    else:
-        print('yes')
+leaf_nodes = 0
+for i in range(1, N+1):
+    if table[i] == 1:
+        leaf_nodes += 1
+
+print(W/leaf_nodes)
     
