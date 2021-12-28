@@ -90,6 +90,11 @@ https://baactree.tistory.com/52
 
 **Tree**  
 ---
+:pushpin: **Leetcode** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+[**LeetCode 543**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_543) | :fire::fire:
+  
 :pushpin: **Baekjoon** :pushpin: 
 문제 | 체감 난이도
 :----: | :----:
