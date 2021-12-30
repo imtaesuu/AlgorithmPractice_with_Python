@@ -29,7 +29,7 @@ def find_parents(node):
 
 while True:
     N, K = map(int, input().split())
-    if N == 0 and K == 0:
+    if not N+K:
         break
     
     elements = list(map(int, input().split()))
