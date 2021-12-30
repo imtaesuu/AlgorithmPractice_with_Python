@@ -1,5 +1,5 @@
-##### Python 3 #####
-##### Runtime 648ms, Memory 135192KB #####
+##### PyPy3 #####
+##### Runtime 596ms, Memory 135192KB #####
 
 import sys
 from collections import defaultdict, deque
@@ -14,7 +14,7 @@ def find_parents(node):
 
 while True:
     N, K = map(int, input().split())
-    if N == 0 and K == 0:
+    if not N+K:
         break
     
     elements = list(map(int, input().split()))

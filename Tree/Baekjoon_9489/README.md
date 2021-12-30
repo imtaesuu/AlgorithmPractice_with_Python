@@ -65,8 +65,8 @@ while True:
             res += len(tree[t])
     print(res)
 
-##### Python 3 #####
-##### Runtime 648ms, Memory 135192KB #####
+##### PyPy3 #####
+##### Runtime 596ms, Memory 135192KB #####
 ```
 
 ## - **How To Solve**
