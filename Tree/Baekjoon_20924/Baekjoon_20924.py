@@ -1,7 +1,8 @@
-import sys, datetime , math, itertools, random
-from collections import Counter, defaultdict, deque
-import heapq
-sys.setrecursionlimit(10**9)
+##### Python 3 #####
+##### Runtime 804ms, Memory 124852KB #####
+
+import sys
+from collections import defaultdict
 input = sys.stdin.readline
 
 # tree 만들기

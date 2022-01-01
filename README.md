@@ -104,7 +104,8 @@ https://baactree.tistory.com/52
 | [**Baekjoon 9489 사촌 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_9489) | :fire:
 | [**Baekjoon 9934 완전 이진 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_9934) | :fire::fire:
 | [**Baekjoon 14675 단절점과 단절선 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_14675) | :fire:
-| [**Baekjoon 17073 나무 위의 빗물**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_17073) | :fire:
+| [**Baekjoon 17073 나무 위의 빗물 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_17073) | :fire:
+| [**Baekjoon 20924 트리의 기둥과 가지 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_20924) | :fire:
 
 **Graph Traversal**
 ---
