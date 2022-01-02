@@ -100,6 +100,7 @@ https://baactree.tistory.com/52
 :----: | :----:
 | [**Baekjoon 1068 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_1068) | :fire:
 | [**Baekjoon 3584 가장 가까운 공통 조상 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_3584) | :fire:
+| [**Baekjoon 4256 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_4256) | :fire::fire:
 | [**Baekjoon 5639 이진 검색 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_5639) | :fire::fire:
 | [**Baekjoon 9489 사촌 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_9489) | :fire:
 | [**Baekjoon 9934 완전 이진 트리 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_9934) | :fire::fire:
