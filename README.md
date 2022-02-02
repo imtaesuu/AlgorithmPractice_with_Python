@@ -95,6 +95,7 @@ https://baactree.tistory.com/52
 :----: | :----:
 | [**LeetCode 110**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_110) | :fire:
 | [**LeetCode 297**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_297) | :fire::fire:
+| [**LeetCode 310**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_310) | :fire::fire:
 | [**LeetCode 543**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_543) | :fire::fire:
 | [**LeetCode 617**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_617) | :fire:
   
