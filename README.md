@@ -99,7 +99,7 @@ https://baactree.tistory.com/52
 | [**LeetCode 310**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_310) | :fire::fire:
 | [**LeetCode 543**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_543) | :fire::fire:
 | [**LeetCode 617**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_617) | :fire:
-| [**LeetCode 738**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_738) | :fire::fire:
+| [**LeetCode 783**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_783) | :fire::fire:
 | [**LeetCode 1038**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Leetcode_1038) | :fire::fire:
   
 :pushpin: **Baekjoon** :pushpin: 
