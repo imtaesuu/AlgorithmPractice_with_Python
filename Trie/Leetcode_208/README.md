@@ -8,7 +8,7 @@
 > trie.insert("app");
 > trie.search("app");     // return True
 
-## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Trie/Leecode_208/Leecode_208.py)
+## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Trie/Leetcode_208/Leetcode_208.py)
 
 ```python
 # 트라이를 위한 노드 클래스
