@@ -1,12 +1,12 @@
 ## - Leetcode 208 Implement Trie (Prefix Tree) - [Link](https://leetcode.com/problems/implement-trie-prefix-tree/)
 ● 구현  
-> Trie trie = new Trie();
-> trie.insert("apple");
-> trie.search("apple");   // return True
-> trie.search("app");     // return False
-> trie.startsWith("app"); // return True
-> trie.insert("app");
-> trie.search("app");     // return True
+> Trie trie = new Trie()  
+> trie.insert("apple")  
+> trie.search("apple")   // return True  
+> trie.search("app")     // return False  
+> trie.startsWith("app") // return True  
+> trie.insert("app")  
+> trie.search("app")     // return True  
 
 ## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Trie/Leetcode_208/Leetcode_208.py)
 
