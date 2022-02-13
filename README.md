@@ -120,6 +120,7 @@ https://baactree.tistory.com/52
 ---
 :pushpin: **Leetcode** :pushpin: 
 문제 | 체감 난이도
+:----: | :----:
 | [**LeetCode 208**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Trie/Leetcode_208) | :fire:
 
 **Graph Traversal**
