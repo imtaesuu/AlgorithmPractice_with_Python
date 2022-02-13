@@ -24,6 +24,7 @@ https://baactree.tistory.com/52
 - [__heap 문제__](#heap)
 - [__Two Pointer 문제__](#two-pointer)
 - [__Tree 문제__](#tree)
+- [__Trie 문제__](#trie)
 - [__Graph Traversal 문제__](#graph-traversal)
 
 **Data Structure**  
@@ -114,6 +115,12 @@ https://baactree.tistory.com/52
 | [**Baekjoon 14675 단절점과 단절선 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_14675) | :fire:
 | [**Baekjoon 17073 나무 위의 빗물 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_17073) | :fire:
 | [**Baekjoon 20924 트리의 기둥과 가지 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Tree/Baekjoon_20924) | :fire:
+
+**Trie**  
+---
+:pushpin: **Leetcode** :pushpin: 
+문제 | 체감 난이도
+| [**LeetCode 208**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Trie/Leetcode_208) | :fire:
 
 **Graph Traversal**
 ---
