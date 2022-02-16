@@ -122,6 +122,7 @@ https://baactree.tistory.com/52
 문제 | 체감 난이도
 :----: | :----:
 | [**LeetCode 208**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Trie/Leetcode_208) | :fire:
+| [**LeetCode 336**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Trie/Leetcode_336) | :fire::fire::fire:
 
 **Graph Traversal**
 ---
