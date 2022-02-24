@@ -19,6 +19,7 @@ https://baactree.tistory.com/52
 
 **Bookmark** 
 - [__Data Structure 문제__](#data-structure)
+- [__Sort 문제__](#sort)
 - [__Linked List 문제__](#linked-list)
 - [__Stack, Queue 문제__](#stack-queue)  
 - [__heap 문제__](#heap)
@@ -33,6 +34,13 @@ https://baactree.tistory.com/52
 문제 | 체감 난이도
 :----: | :----:
 | [**Baekjoon 21942 부품 대여장 문제**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Data_Structure/Baekjoon_21942) | :fire:
+
+**Sort**  
+---
+:pushpin: **Leetcode** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+[**LeetCode 148**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Sort/Leetcode_148) | :fire::fire:
 
 **Linked List**  
 ---
