@@ -4,15 +4,10 @@
 # sys.setrecursionlimit(10**9)
 # input = sys.stdin.readline
 
-a = 'abcd'
-b = 'abcd'
+prev = 181.04
+all = [115.5, 132, 148.5]
 
-while a:
-    print(a)
-    a = a[1:]
-
-    
-for i, v in enumerate(b):
-    print(b[:len(b)-i])
-    
-    
+while True:
+    x = int(input())
+    print()
+    print((prev + x)/74)

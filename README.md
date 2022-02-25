@@ -40,6 +40,7 @@ https://baactree.tistory.com/52
 :pushpin: **Leetcode** :pushpin: 
 문제 | 체감 난이도
 :----: | :----:
+[**LeetCode 56**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Sort/Leetcode_56) | :fire:
 [**LeetCode 148**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Sort/Leetcode_148) | :fire::fire:
 
 **Linked List**  
