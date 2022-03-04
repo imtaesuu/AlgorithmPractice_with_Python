@@ -1,0 +1,43 @@
+## - Leetcode 75 Sort Colors - [Link](https://leetcode.com/problems/sort-colors/)
+● 입력  
+> nums = [2,0,2,1,1,0]
+
+● 출력
+>  [0,0,1,1,2,2]
+
+## - Code - [Link](https://github.com/imtaesuu/AlgorithmPractice_with_Python/blob/main/Sort/Leetcode_75/Leetcode_75.py)
+
+```python
+class Solution:
+    def sortColors(self, nums: List[int]) -> None:
+        # 일방적인 퀵정렬과는 다르게 3개의 포인터를 만듦 양 끝 포인터들과 움직이며 비교할 포인터
+        # 끝 포인터는 리스트의 길이를 주면서 리스트 범위밖의 인덱스를 줌 
+        # 조건문의 차이인데 j < k를 성립시키면서 모든 리스트를 순회하려면 리스트 끝 인덱스가 포함되면 안됨
+        i, j, k = 0, 0, len(nums)
+        
+        # 0, 1, 2 중 중간값은 1 이므로 대소비교의 기준이됨
+        while j < k:
+            # 진행 포인터의 값이 1보다 크다면 k의 인덱스를 감소시키고 서로 스왑해줌
+            # 여기서 키포인트는 비교후 j의 값을 증가시키지 않는 것
+            # 본래 k위치에 수가 0 이면 1보다 작게 됨으로 위치 변동이 필요할 수도 있음
+            # 즉 모든 수를 비교하기 위해서는 j를 이동시키면 안됨
+            if nums[j] > 1:
+                k -= 1
+                nums[j], nums[k] = nums[k], nums[j]
+                
+            # 1보다 작다면 먼저 스왑하고 i와 j의 인덱스를 증가시켜줌
+            elif nums[j] < 1:
+                nums[j], nums[i] = nums[i], nums[j]
+                i += 1
+                j += 1
+            
+            # 1이라면 j의 인덱스만 증가시킴
+            else:
+                j += 1
+
+### Python 3 #####
+##### Runtime 43ms, Memory 13.8MB #####
+```
+
+## - **How To Solve**
+- 일반적인 퀵정렬을 응용하여 중간값을 피벗으로 대체하고 대소비교 함
