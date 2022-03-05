@@ -18,6 +18,7 @@ https://baactree.tistory.com/52
 > 힙으로 중앙값 구하는 것 연습하기  
 
 **Bookmark** 
+- [__Binary Search 문제__](#binary-search)
 - [__Data Structure 문제__](#data-structure)
 - [__Sort 문제__](#sort)
 - [__Linked List 문제__](#linked-list)
@@ -27,6 +28,14 @@ https://baactree.tistory.com/52
 - [__Tree 문제__](#tree)
 - [__Trie 문제__](#trie)
 - [__Graph Traversal 문제__](#graph-traversal)
+
+**Binary Search**  
+---
+:pushpin: **Leetcode** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+| [**LeetCode 704**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Binary_Search/Leetcode_704) | :fire:
+
 
 **Data Structure**  
 ---
