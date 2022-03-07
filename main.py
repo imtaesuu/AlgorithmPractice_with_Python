@@ -4,7 +4,7 @@
 # sys.setrecursionlimit(10**9)
 # input = sys.stdin.readline
 import random
-
+d
 nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 all_numbers = [i+j+k+l for i in nums for j in nums for k in nums for l in nums]
 
