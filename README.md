@@ -35,6 +35,7 @@ https://baactree.tistory.com/52
 문제 | 체감 난이도
 :----: | :----:
 | [**LeetCode 33**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Binary_Search/Leetcode_33) | :fire::fire:
+| [**LeetCode 167**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Binary_Search/Leetcode_167) | :fire:
 | [**LeetCode 704**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Binary_Search/Leetcode_704) | :fire:
 
 
