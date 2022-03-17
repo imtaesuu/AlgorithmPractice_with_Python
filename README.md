@@ -19,6 +19,7 @@ https://baactree.tistory.com/52
 
 **Bookmark** 
 - [__Binary Search 문제__](#binary-search)
+- [__Bit 문제__](#bit)
 - [__Data Structure 문제__](#data-structure)
 - [__Sort 문제__](#sort)
 - [__Linked List 문제__](#linked-list)
@@ -37,6 +38,14 @@ https://baactree.tistory.com/52
 | [**LeetCode 33**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Binary_Search/Leetcode_33) | :fire::fire:
 | [**LeetCode 167**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Binary_Search/Leetcode_167) | :fire:
 | [**LeetCode 704**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Binary_Search/Leetcode_704) | :fire:
+
+**Bit**  
+---
+:pushpin: **Leetcode** :pushpin: 
+문제 | 체감 난이도
+:----: | :----:
+| [**LeetCode 136**](https://github.com/imtaesuu/AlgorithmPractice_with_Python/tree/main/Bit/Leetcode_136) | :fire:
+
 
 
 **Data Structure**  
